@@ -1,12 +1,10 @@
 // 🔴 Replace with your Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT-default-rtdb.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID"
+  apiKey: "AIzaSyBGOF0w9EvMFOZ5mTX7JC559WHX9t2GmNY",
+  authDomain: "sending-message-cfeb7.firebaseapp.com",
+  databaseURL: "https://sending-message-cfeb7-default-rtdb.firebaseio.com",
+  projectId: "sending-message-cfeb7"
 };
-
-firebase.initializeApp(firebaseConfig);
 
 const db = firebase.database().ref("messages");
 
